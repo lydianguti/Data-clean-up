@@ -3,7 +3,7 @@ cd "\\fsp-kec2\HISS PROJECT\GAP Data\NNPGH\RequestsForData\GiftWango"
 
 use C:\Users\lnguti\Desktop\NNPGH\DATA\RAW\tbhivadultenrl_v6_v5.dta, clear
 keep gender patid enrol_date  dob age bmi who cd4 supptgrp s_supptgrp/*
-*/ weight height past_arv treated_tb tb_stat /*
+*/ weight height past_arv treated_tb tb_stat Viral_load_date VL/*
 */ arv_eligible psycho_suppt source psycho_soc referrals_made
 *disclosure disclosure_who discontinued1 discontinued2 discontinued3 
 keep if age >=10 & age <=19
